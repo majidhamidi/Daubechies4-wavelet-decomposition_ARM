@@ -5,7 +5,7 @@
 
 #include "db4.h"
 
-static float32_t filterHiCoeff [] = {-0.230380, 0.71484, -0.63088, -0.02798, 0.18703, 0.03084, -0.03288, -0.01060}; // Hi pass filter coefficients of Daubechies 4
+static float32_t filterHiCoeff [] = {-0.230380, 0.71484, -0.63088, -0.02798, 0.18703, 0.03084, -0.03288, -0.01060}; // High pass filter coefficients of Daubechies 4
 
 static float32_t filterLoCoeff [] = {-0.01060, 0.03288, 0.03084, -0.18703, -0.02798, 0.63088, 0.71484, 0.23038}; //Low pass filter coefficients of Daubechies 4
 
